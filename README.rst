@@ -21,3 +21,5 @@ These keys are recognized by this plugin: ::
 The sequence is mapped to ``12345678``, please refer to https://en.wikipedia.org/wiki/Braille_Patterns.
 
 For example, ``78ij,`` geneartes ``⢝`` character.
+
+``<space>`` generates ``⣿`` character.
