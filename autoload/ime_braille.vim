@@ -46,7 +46,7 @@ endfunction " }}}
 
 
 function! ime_braille#handler (matchobj, trigger)
-    if a:trigger == '<space>'
+    if a:trigger == ' '
         " return an full braille symbol
         return {'len': 0, 'options': ['⣿']}
     else
@@ -94,6 +94,6 @@ function! ime_braille#info ()
     \ 'description': 'Braille mode',
     \ 'pattern': '\v[⠀-⣿]?$',
     \ 'handler': function('ime_braille#handler'),
-    \ 'trigger': s:ime_braille_keys_list + ['<space>']
+    \ 'trigger': s:ime_braille_keys_list + [' ']
     \ }
 endfunction
