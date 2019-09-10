@@ -16,10 +16,22 @@ Usage
 -------------------------------------------------------------------------------
 These keys are recognized by this plugin: ::
 
-  let g:ime_braille_keys = '7uj8ikm,'
+  let g:ime_braille_keys = '3ed4rfcv'
 
-The sequence is mapped to ``12345678``, please refer to https://en.wikipedia.org/wiki/Braille_Patterns.
+The sequence is mapped to ``12345678``. In visual representation:
 
-For example, ``78ij,`` geneartes ``⢝`` character.
+::
+
+  (1) (4)
+  (2) (5)
+  (3) (6)
+  (7) (8)
+
+For example, ``34rdv`` geneartes ``⢝`` character.
 
 ``<space>`` generates ``⣿`` character.
+
+
+Referernces
+-------------------------------------------------------------------------------
+https://en.wikipedia.org/wiki/Braille_Patterns.

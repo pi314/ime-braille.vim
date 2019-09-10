@@ -83,7 +83,7 @@ function! ime_braille#info ()
     if !exists('g:ime_braille_keys') ||
                 \ type(g:ime_braille_keys) != type('') ||
                 \ len(g:ime_braille_keys) != 8
-        let g:ime_braille_keys = '7uj8ikm,'
+        let g:ime_braille_keys = '3ed4rfcv'
     endif
 
     let s:ime_braille_keys_list = split(g:ime_braille_keys, '\zs')
